@@ -8,4 +8,5 @@ public class Demo3 {
 	String bb = "GaoJing";
 	int  tt=0;
 	int bbbb= 44;
+	int aaaaa=77;
 }
