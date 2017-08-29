@@ -9,4 +9,5 @@ public class Demo3 {
 	int  tt=0;
 	int bbbb= 44;
 	int ccc= 888;
+	int aaaaa=77;
 }
