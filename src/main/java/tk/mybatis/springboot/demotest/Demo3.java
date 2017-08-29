@@ -6,5 +6,4 @@ public class Demo3 {
 	
 	String ss = "tiantian";
 	String bb = "GaoJing";
-	int  tt=0;
 }
