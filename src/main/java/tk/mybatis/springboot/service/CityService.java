@@ -41,6 +41,8 @@ public class CityService {
 
     @Autowired
     private CityMapper cityMapper;
+    
+    private int i = 10 ;
 
     public List<City> getAll(City city) {
         if (city.getPage() != null && city.getRows() != null) {
