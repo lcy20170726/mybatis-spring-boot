@@ -24,13 +24,15 @@
 
 package tk.mybatis.springboot.service;
 
-import com.github.pagehelper.PageHelper;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.github.pagehelper.PageHelper;
+
 import tk.mybatis.springboot.mapper.CityMapper;
 import tk.mybatis.springboot.model.City;
-
-import java.util.List;
 
 /**
  * @author liuzh
@@ -41,7 +43,7 @@ public class CityService {
 
     @Autowired
     private CityMapper cityMapper;
-
+   
     public List<City> getAll(City city) {
         if (city.getPage() != null && city.getRows() != null) {
             PageHelper.startPage(city.getPage(), city.getRows());
